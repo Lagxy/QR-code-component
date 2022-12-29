@@ -14,14 +14,19 @@
 }
 
 body {
+    min-width: 100vw;
+    min-height: 100vh;
     box-sizing: border-box;
     background-color: var(--Light-gray);
     font-family: 'Outfit';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .content {
     width: 300px;
-    margin: 40px auto;
     background-color: var(--White);
     display: flex;
     flex-direction: column;
